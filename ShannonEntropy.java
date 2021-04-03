@@ -35,6 +35,7 @@ public class ShannonEntropy {
     // Compute the frequencies.
     public void setFrequencies(){
         for(int j = 0; j < n; j++){
+            System.out.println("From standard input, enter an integer value: ");
             int value = readUserInput.nextInt();
             frequencies[value]++;
         }
